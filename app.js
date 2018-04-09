@@ -12,7 +12,6 @@ app.use(express.static('client'));
 app.engine('html', consolidate.ejs);
 app.set('view engine', 'html');
 app.set('views', path.resolve(__dirname, './server/views'));
-
 // local variables for all views
 app.locals.env = process.env.NODE_ENV || 'dev';
 app.locals.reload = true;
