@@ -20,6 +20,7 @@
     "ejs": "^2.5.5",
     "express": "^4.14.0"
   },
+  
   "devDependencies": {
     "browser-sync": "^2.18.5",
     "chokidar": "^1.6.1",

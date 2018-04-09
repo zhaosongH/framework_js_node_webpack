@@ -2,9 +2,6 @@ require("./index.scss");
 require("../common/common.js");
 
 console.log("hello");
-
-
-
 getsomething({
 	reqType: "sometype",
 	data:[1]

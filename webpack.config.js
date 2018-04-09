@@ -3,7 +3,6 @@ var path = require('path');
 
 var publicPath = 'http://localhost:3000/';
 var hotMiddlewareScript = 'webpack-hot-middleware/client?reload=true';
-
 var devConfig = {
     entry: {
         page1: ['./client/page1', hotMiddlewareScript],
