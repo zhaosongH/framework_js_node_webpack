@@ -5,7 +5,6 @@ var express = require('express'),
 var isDev = process.env.NODE_ENV !== 'production';
 var app = express();
 var port = 3000;
-
 app.engine('html', consolidate.ejs);
 app.set('view engine', 'html');
 app.set('views', path.resolve(__dirname, './server/views'));
