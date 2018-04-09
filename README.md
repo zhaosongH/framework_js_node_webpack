@@ -1,4 +1,4 @@
-this project is a improve version of liangzhu's project
+auto refresh, call back, By Nodejs, D3js, JQuery
 
 1.	*  npm install
 2.	* `npm start` to develop with full live reload.
@@ -6,3 +6,5 @@ this project is a improve version of liangzhu's project
     (templates) only.
     * `npm run production` to emit outputs and run the express for production.
     * `npm run build` if you care about what is hold in memory for development...
+
+(this project is a improve version of liangzhu's project)
