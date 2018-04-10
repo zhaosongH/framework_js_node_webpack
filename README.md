@@ -1,10 +1,29 @@
-auto refresh, call back, By Nodejs, D3js, JQuery
+# Js framework
+These code will enable a simple framework using Nodejs, D3js, and JQuery.
 
-1.	*  npm install
-2.	* `npm start` to develop with full live reload.
-    * `npm run browsersync` is a alternative for development. It may be faster when modifying the express views
-    (templates) only.
-    * `npm run production` to emit outputs and run the express for production.
-    * `npm run build` if you care about what is hold in memory for development...
+Enable auto refreshing, calling back etc.
+## Getting Started
+Installing:
+```
+npm install
+```
+develop with full live reload:
+```
+npm start 
+```
+a alternative for development. It may be faster when modifying the express views
+    (templates) only:
+```
+npm run browsersync 
+```
+emit outputs and run the express for production:
+```
+npm run production 
+```
+if you care about what is hold in memory for development:
+```
+npm run build
+```
+## Acknowledgments
 
-(this project is a improve version of liangzhu's project)
+* this project is a improve version of liangzhu's project
